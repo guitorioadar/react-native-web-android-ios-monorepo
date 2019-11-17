@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83CBBA2D1A601D0E00E9B192"
+               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
                BuildableName = "libReact.a"
-               BlueprintName = "React"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
+               BlueprintName = "React-tvOS"
+               ReferencedContainer = "container:../../../node_modules/react-native/React/React.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "react_native_web_android_ios_monorepo.app"
-               BlueprintName = "react_native_web_android_ios_monorepo"
+               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+               BuildableName = "react_native_web_android_ios_monorepo-tvOS.app"
+               BlueprintName = "react_native_web_android_ios_monorepo-tvOS"
                ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "react_native_web_android_ios_monorepoTests.xctest"
-               BlueprintName = "react_native_web_android_ios_monorepoTests"
+               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
+               BuildableName = "react_native_web_android_ios_monorepo-tvOSTests.xctest"
+               BlueprintName = "react_native_web_android_ios_monorepo-tvOSTests"
                ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,9 +60,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "react_native_web_android_ios_monorepoTests.xctest"
-               BlueprintName = "react_native_web_android_ios_monorepoTests"
+               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
+               BuildableName = "react_native_web_android_ios_monorepo-tvOSTests.xctest"
+               BlueprintName = "react_native_web_android_ios_monorepo-tvOSTests"
                ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -70,9 +70,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "react_native_web_android_ios_monorepo.app"
-            BlueprintName = "react_native_web_android_ios_monorepo"
+            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+            BuildableName = "react_native_web_android_ios_monorepo-tvOS.app"
+            BlueprintName = "react_native_web_android_ios_monorepo-tvOS"
             ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "react_native_web_android_ios_monorepo.app"
-            BlueprintName = "react_native_web_android_ios_monorepo"
+            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+            BuildableName = "react_native_web_android_ios_monorepo-tvOS.app"
+            BlueprintName = "react_native_web_android_ios_monorepo-tvOS"
             ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -112,9 +112,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "react_native_web_android_ios_monorepo.app"
-            BlueprintName = "react_native_web_android_ios_monorepo"
+            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+            BuildableName = "react_native_web_android_ios_monorepo-tvOS.app"
+            BlueprintName = "react_native_web_android_ios_monorepo-tvOS"
             ReferencedContainer = "container:react_native_web_android_ios_monorepo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
