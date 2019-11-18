@@ -1,23 +1,6 @@
-import React from 'react';
-import {createAppContainer} from 'react-navigation'
-import {createStackNavigator} from 'react-navigation-stack';
-import HomeScreen from './screens/HomeScreen';
-import DetailScreen from './screens/DetailScreen';
+import React, {Component} from 'react';
+import {Platform, StyleSheet,TouchableOpacity, Button, Text, View} from 'react-native';
 
-const AppStackNavigator = createStackNavigator({
-        Home: HomeScreen,
-        Details: DetailScreen,
-    },
-    {
-      initialRouteName: 'Home'
-    },
-);
-
-const Stack = createAppContainer(AppStackNavigator);
-
-export  default Stack;
-
-/*
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
     android:
@@ -27,13 +10,18 @@ const instructions = Platform.select({
 });
 
 type Props = {};
-export default class App extends Component<Props> {
+export default class HomeScreen extends Component<Props> {
     render() {
+        console.log('Home Screen Log: ');
+        console.log(this.props);
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>Welcome to React Native monorepo!</Text>
+                <Text style={styles.welcome}>Welcome to React Native monorepo with Web Android & IOS</Text>
                 <Text style={styles.instructions}>To get started, edit App.js from component/src</Text>
                 <Text style={styles.instructions}>{instructions}</Text>
+                <Button title={'Go to Detail'} onPress={
+                    ()=>this.props.navigation.navigate('Details')
+                }/>
             </View>
         );
     }
@@ -57,4 +45,3 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
 });
-*/

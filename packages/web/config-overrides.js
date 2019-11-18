@@ -9,6 +9,14 @@ const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 const appIncludes = [
     resolveApp('src'),
     resolveApp('../components/src'),
+    resolveApp('../../node_modules/@react-navigation'),
+    resolveApp('../../node_modules/react-navigation'),
+    resolveApp('../../node_modules/react-native-gesture-handler'),
+    resolveApp('../../node_modules/react-native-reanimated'),
+    resolveApp('../../node_modules/react-native-screens'),
+    resolveApp('../../node_modules/react-navigation-drawer'),
+    resolveApp('../../node_modules/react-navigation-stack'),
+    resolveApp('../../node_modules/react-navigation-tabs'),
 ];
 
 module.exports = function override(config, env) {
