@@ -2,46 +2,48 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, TouchableOpacity, Button, Text, View} from 'react-native';
 
 const instructions = Platform.select({
-    ios: 'This is from ios Details,\n Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
+    ios: 'This is from ios Profile,\n Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
     android:
-        'This is from Android Details' +
+        'This is from Android Profile' +
         'Double tap R on your keyboard to reload,\n' +
         'Shake or press menu button for dev menu',
-    web: 'This is from Android Details \n'+'Press the reload button to refresh or save project and it will reload automatically',
+    web: 'This is from Android Profile \n'+'Press the reload button to refresh or save project and it will reload automatically',
 });
 
-type Props = {};
-export default class DetailScreen extends Component<Props> {
+export class ProfileScreen extends Component {
 
     constructor(props){
         super(props);
-        console.log('Detail 1. Constructor')
+        console.log('Profile 1. Constructor')
     }
 
     static navigationOptions = {
-        title: 'Details',
+        title: 'Profile',
     };
+
     render() {
-        console.log('Detail 1. Constructor');
+        console.log('Profile 2: Render');
         console.log(this.props);
         return (
-            <View style={styles.container}>
+            <View>
+                <Text style={styles.welcome}>Welcome to Profile</Text>
                 <Text style={styles.welcome}>Welcome to React Native monorepo!</Text>
                 <Text style={styles.instructions}>To get started, edit App.js from component/src</Text>
                 <Text style={styles.instructions}>{instructions}</Text>
-                <Button title={'Go to Detail'} onPress={() => {
-                    console.log('Button Clicked');
-                }}/>
+                <Button
+                    title={'Go to Detail'}
+                    onPress={()=> this.props.navigation.goBack()}
+                />
             </View>
         );
     }
 }
 
+export default ProfileScreen
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
         backgroundColor: '#F5FCFF',
     },
     welcome: {
