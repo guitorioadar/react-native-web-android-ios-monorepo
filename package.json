@@ -16,9 +16,25 @@
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.3.3",
     "react-navigation-stack": "^1.10.3",
-    "react-navigation-tabs": "^2.5.6"
+    "react-navigation-tabs": "^2.5.6",
+    "react-native-status-bar-height": "^2.4.0",
+    "react-native-elements": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
-    "metro-config": "latest"
+    "metro-config": "latest",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "react-hot-loader": "^4.3.6",
+    "webpack": "^4.17.2",
+    "webpack-bundle-tracker": "^0.3.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "babel-plugin-react-native-web": "^0.11.7"
   }
 }

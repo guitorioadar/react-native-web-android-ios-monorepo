@@ -40,6 +40,8 @@ target 'react_native_web_android_ios_monorepo' do
 
   pod 'RNScreens', :path => '../../../node_modules/react-native-screens'
 
+  pod 'RNVectorIcons', :path => '../../../node_modules/react-native-vector-icons'
+
   target 'react_native_web_android_ios_monorepoTests' do
     inherit! :search_paths
     # Pods for testing

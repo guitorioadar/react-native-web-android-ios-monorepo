@@ -14,9 +14,12 @@ const appIncludes = [
     resolveApp('../../node_modules/react-native-gesture-handler'),
     resolveApp('../../node_modules/react-native-reanimated'),
     resolveApp('../../node_modules/react-native-screens'),
+    resolveApp('../../node_modules/react-native-ratings'),
     resolveApp('../../node_modules/react-navigation-drawer'),
     resolveApp('../../node_modules/react-navigation-stack'),
     resolveApp('../../node_modules/react-navigation-tabs'),
+    resolveApp('../../node_modules/react-native-elements'),
+    resolveApp('../../node_modules/react-native-vector-icons'),
 ];
 
 module.exports = function override(config, env) {
@@ -29,6 +32,7 @@ module.exports = function override(config, env) {
     config.module.rules[2].oneOf[1].include = appIncludes;
     config.module.rules[2].oneOf[1].options.plugins = [
         require.resolve('babel-plugin-react-native-web'),
+        require.resolve('@babel/plugin-proposal-class-properties'),
     ].concat(config.module.rules[2].oneOf[1].options.plugins);
     config.module.rules = config.module.rules.filter(Boolean);
     config.plugins.push(
