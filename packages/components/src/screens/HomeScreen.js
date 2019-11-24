@@ -9,8 +9,7 @@ const instructions = Platform.select({
     web: 'Press the reload button to refresh or save project and it will reload automatically'
 });
 
-type Props = {};
-export default class HomeScreen extends Component<Props> {
+export default class HomeScreen extends Component {
     render() {
         console.log('Home Screen Log: ');
         console.log(this.props);
