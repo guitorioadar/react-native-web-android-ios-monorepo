@@ -1,6 +1,11 @@
 {
   "name": "react_native_web_android_ios_monorepo",
   "private": true,
+  "scripts": {
+    "web": "yarn workspace web start",
+    "ios": "yarn workspace mobile ios",
+    "android": "yarn workspace mobile android"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
