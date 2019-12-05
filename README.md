@@ -12,3 +12,5 @@ Please follow these steps.
 
 `yarn android` => This is to run android app
 
+`yarn build` => This is for production build, that means you can use the minified version of the app in the production(a website as well)'
+

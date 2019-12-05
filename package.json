@@ -4,7 +4,8 @@
   "scripts": {
     "web": "yarn workspace web start",
     "ios": "yarn workspace mobile ios",
-    "android": "yarn workspace mobile android"
+    "android": "yarn workspace mobile android",
+    "build": "node_modules/.bin/webpack -p--config packages/web/webpack.config.js"
   },
   "workspaces": {
     "packages": [
@@ -19,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "core-js": "2",
     "react": "16.9.0",
     "react-native": "0.61.4",
     "react-native-gesture-handler": "^1.5.0",
